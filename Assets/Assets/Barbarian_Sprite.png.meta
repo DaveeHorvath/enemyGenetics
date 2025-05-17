@@ -1,0 +1,3296 @@
+fileFormatVersion: 2
+guid: ef02d924c759df642a42fee45a19777c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1273148846512437808
+    second: Barbarian_Sprite_0
+  - first:
+      213: 7584742523204597990
+    second: Barbarian_Sprite_1
+  - first:
+      213: -636904381924831091
+    second: Barbarian_Sprite_2
+  - first:
+      213: 5673211008913937411
+    second: Barbarian_Sprite_3
+  - first:
+      213: -5832524297269908091
+    second: Barbarian_Sprite_4
+  - first:
+      213: -3473817566397405085
+    second: Barbarian_Sprite_5
+  - first:
+      213: 2867096205594916998
+    second: Barbarian_Sprite_6
+  - first:
+      213: 997610544792181221
+    second: Barbarian_Sprite_7
+  - first:
+      213: 2877398270144994893
+    second: Barbarian_Sprite_8
+  - first:
+      213: 1705456361421346460
+    second: Barbarian_Sprite_9
+  - first:
+      213: -3350286268808187127
+    second: Barbarian_Sprite_10
+  - first:
+      213: 9007193237993788316
+    second: Barbarian_Sprite_11
+  - first:
+      213: -2346443482210318950
+    second: Barbarian_Sprite_12
+  - first:
+      213: -8366577665287948402
+    second: Barbarian_Sprite_13
+  - first:
+      213: -309127264425136983
+    second: Barbarian_Sprite_14
+  - first:
+      213: 2872064362620734523
+    second: Barbarian_Sprite_15
+  - first:
+      213: -5433127056373381475
+    second: Barbarian_Sprite_16
+  - first:
+      213: -7704906822317738035
+    second: Barbarian_Sprite_17
+  - first:
+      213: 5168534633760926247
+    second: Barbarian_Sprite_18
+  - first:
+      213: -2195828534613796386
+    second: Barbarian_Sprite_19
+  - first:
+      213: -8731260951450380078
+    second: Barbarian_Sprite_20
+  - first:
+      213: -4991682921452724592
+    second: Barbarian_Sprite_21
+  - first:
+      213: -7175605527628729316
+    second: Barbarian_Sprite_22
+  - first:
+      213: 542778915380897095
+    second: Barbarian_Sprite_23
+  - first:
+      213: -4589923379081948951
+    second: Barbarian_Sprite_24
+  - first:
+      213: -8122014841634727175
+    second: Barbarian_Sprite_25
+  - first:
+      213: 65032218742409428
+    second: Barbarian_Sprite_26
+  - first:
+      213: 3576178323672959570
+    second: Barbarian_Sprite_27
+  - first:
+      213: -6648741617835488919
+    second: Barbarian_Sprite_28
+  - first:
+      213: 2430153456484858415
+    second: Barbarian_Sprite_29
+  - first:
+      213: 7271039430769935208
+    second: Barbarian_Sprite_30
+  - first:
+      213: 4226520179695601759
+    second: Barbarian_Sprite_31
+  - first:
+      213: -577144181931073926
+    second: Barbarian_Sprite_32
+  - first:
+      213: -9037664271092855240
+    second: Barbarian_Sprite_33
+  - first:
+      213: -4830842921376503675
+    second: Barbarian_Sprite_34
+  - first:
+      213: 8515219077141478051
+    second: Barbarian_Sprite_35
+  - first:
+      213: -3531393238958241149
+    second: Barbarian_Sprite_36
+  - first:
+      213: -4816247694569987630
+    second: Barbarian_Sprite_37
+  - first:
+      213: -918309891529682409
+    second: Barbarian_Sprite_38
+  - first:
+      213: 5509025650098633989
+    second: Barbarian_Sprite_39
+  - first:
+      213: 6468079792129150584
+    second: Barbarian_Sprite_40
+  - first:
+      213: 4853479388766947775
+    second: Barbarian_Sprite_41
+  - first:
+      213: 9077658140620636661
+    second: Barbarian_Sprite_42
+  - first:
+      213: -5204443494112291423
+    second: Barbarian_Sprite_43
+  - first:
+      213: -674810835631576978
+    second: Barbarian_Sprite_44
+  - first:
+      213: -3497895005840048471
+    second: Barbarian_Sprite_45
+  - first:
+      213: 5019354588830971044
+    second: Barbarian_Sprite_46
+  - first:
+      213: 3086345112516965974
+    second: Barbarian_Sprite_47
+  - first:
+      213: -8419052127465103741
+    second: Barbarian_Sprite_48
+  - first:
+      213: 8587239424966263422
+    second: Barbarian_Sprite_49
+  - first:
+      213: 7005346295208771971
+    second: Barbarian_Sprite_50
+  - first:
+      213: 8573914469521749857
+    second: Barbarian_Sprite_51
+  - first:
+      213: 1629326624250869633
+    second: Barbarian_Sprite_52
+  - first:
+      213: 2485201606378781314
+    second: Barbarian_Sprite_53
+  - first:
+      213: -3888566748690827487
+    second: Barbarian_Sprite_54
+  - first:
+      213: 2924934043563600560
+    second: Barbarian_Sprite_55
+  - first:
+      213: 5131484042106932257
+    second: Barbarian_Sprite_56
+  - first:
+      213: 8032436760920044104
+    second: Barbarian_Sprite_57
+  - first:
+      213: -8359286365391017417
+    second: Barbarian_Sprite_58
+  - first:
+      213: 8125511669253523313
+    second: Barbarian_Sprite_59
+  - first:
+      213: 2988453270500967167
+    second: Barbarian_Sprite_60
+  - first:
+      213: -6151437545748626099
+    second: Barbarian_Sprite_61
+  - first:
+      213: 4036436957705213436
+    second: Barbarian_Sprite_62
+  - first:
+      213: 1914440697589007461
+    second: Barbarian_Sprite_63
+  - first:
+      213: -5970893974421549758
+    second: Barbarian_Sprite_64
+  - first:
+      213: 3200782287590787160
+    second: Barbarian_Sprite_65
+  - first:
+      213: -7856493000317846418
+    second: Barbarian_Sprite_66
+  - first:
+      213: 2835619196852758309
+    second: Barbarian_Sprite_67
+  - first:
+      213: -1017439289985809018
+    second: Barbarian_Sprite_68
+  - first:
+      213: -3706596356610679888
+    second: Barbarian_Sprite_69
+  - first:
+      213: 7876477893670566010
+    second: Barbarian_Sprite_70
+  - first:
+      213: 6166078529044563113
+    second: Barbarian_Sprite_71
+  - first:
+      213: 3557271852717473698
+    second: Barbarian_Sprite_72
+  - first:
+      213: 6339621202344387234
+    second: Barbarian_Sprite_73
+  - first:
+      213: 6519063243289366138
+    second: Barbarian_Sprite_74
+  - first:
+      213: -8286576593317358642
+    second: Barbarian_Sprite_75
+  - first:
+      213: -3550213045875428216
+    second: Barbarian_Sprite_76
+  - first:
+      213: 5607126453094999548
+    second: Barbarian_Sprite_77
+  - first:
+      213: -3177818716599887850
+    second: Barbarian_Sprite_78
+  - first:
+      213: -6666109877515479267
+    second: Barbarian_Sprite_79
+  - first:
+      213: 457452257750875353
+    second: Barbarian_Sprite_80
+  - first:
+      213: 8718666136335351972
+    second: Barbarian_Sprite_81
+  - first:
+      213: -5691905425471523017
+    second: Barbarian_Sprite_82
+  - first:
+      213: 6930751226476140603
+    second: Barbarian_Sprite_83
+  - first:
+      213: -9097775969474244556
+    second: Barbarian_Sprite_84
+  - first:
+      213: 2523817555275495116
+    second: Barbarian_Sprite_85
+  - first:
+      213: -1618049990757959904
+    second: Barbarian_Sprite_86
+  - first:
+      213: -1081705729849179945
+    second: Barbarian_Sprite_87
+  - first:
+      213: 2810225152792224928
+    second: Barbarian_Sprite_88
+  - first:
+      213: 1960161088994957243
+    second: Barbarian_Sprite_89
+  - first:
+      213: 6199865384289778227
+    second: Barbarian_Sprite_90
+  - first:
+      213: -1241788614841490865
+    second: Barbarian_Sprite_91
+  - first:
+      213: -4253599589847381954
+    second: Barbarian_Sprite_92
+  - first:
+      213: -6700420996686246629
+    second: Barbarian_Sprite_93
+  - first:
+      213: 5171589424771724501
+    second: Barbarian_Sprite_94
+  - first:
+      213: -5372453318583091441
+    second: Barbarian_Sprite_95
+  - first:
+      213: 1967919106781829639
+    second: Barbarian_Sprite_96
+  - first:
+      213: 4720100110188004874
+    second: Barbarian_Sprite_97
+  - first:
+      213: -2284178414198657593
+    second: Barbarian_Sprite_98
+  - first:
+      213: -8265338266374801809
+    second: Barbarian_Sprite_99
+  - first:
+      213: 3596358576560455372
+    second: Barbarian_Sprite_100
+  - first:
+      213: -1549576984904574866
+    second: Barbarian_Sprite_101
+  - first:
+      213: -3048413493018627257
+    second: Barbarian_Sprite_102
+  - first:
+      213: 655940937228184590
+    second: Barbarian_Sprite_103
+  - first:
+      213: -4278139842634681044
+    second: Barbarian_Sprite_104
+  - first:
+      213: 8177810503073807248
+    second: Barbarian_Sprite_105
+  - first:
+      213: 6841118688832634747
+    second: Barbarian_Sprite_106
+  - first:
+      213: -6730837399988198859
+    second: Barbarian_Sprite_107
+  - first:
+      213: 7279724740419906800
+    second: Barbarian_Sprite_108
+  - first:
+      213: -9106764696077410926
+    second: Barbarian_Sprite_109
+  - first:
+      213: 9111746030238514332
+    second: Barbarian_Sprite_110
+  - first:
+      213: 7228263404003830410
+    second: Barbarian_Sprite_111
+  - first:
+      213: -283264774413895911
+    second: Barbarian_Sprite_112
+  - first:
+      213: -5599791715312888952
+    second: Barbarian_Sprite_113
+  - first:
+      213: 8764646574636909538
+    second: Barbarian_Sprite_114
+  - first:
+      213: 5294841146336887114
+    second: Barbarian_Sprite_115
+  - first:
+      213: 268192042398563719
+    second: Barbarian_Sprite_116
+  - first:
+      213: -4578623282428912031
+    second: Barbarian_Sprite_117
+  - first:
+      213: -3253695714047107108
+    second: Barbarian_Sprite_118
+  - first:
+      213: -2144186197073693938
+    second: Barbarian_Sprite_119
+  - first:
+      213: 3626016582756410477
+    second: Barbarian_Sprite_120
+  - first:
+      213: -4812324920919403311
+    second: Barbarian_Sprite_121
+  - first:
+      213: 8940582017261107881
+    second: Barbarian_Sprite_122
+  - first:
+      213: 7597510251307385168
+    second: Barbarian_Sprite_123
+  - first:
+      213: -537471772942767389
+    second: Barbarian_Sprite_124
+  - first:
+      213: 354757082246753591
+    second: Barbarian_Sprite_125
+  - first:
+      213: 1330078059431798567
+    second: Barbarian_Sprite_126
+  - first:
+      213: -6826842579550942091
+    second: Barbarian_Sprite_127
+  - first:
+      213: -8639577849774238317
+    second: Barbarian_Sprite_128
+  - first:
+      213: -6010864710713965711
+    second: Barbarian_Sprite_129
+  - first:
+      213: -7321278952397235579
+    second: Barbarian_Sprite_130
+  - first:
+      213: 193984630103153408
+    second: Barbarian_Sprite_131
+  - first:
+      213: 867595028577386234
+    second: Barbarian_Sprite_132
+  - first:
+      213: 2940031095625539316
+    second: Barbarian_Sprite_133
+  - first:
+      213: -7550480218357326256
+    second: Barbarian_Sprite_134
+  - first:
+      213: -7022689632773381032
+    second: Barbarian_Sprite_135
+  - first:
+      213: 4431896803867774697
+    second: Barbarian_Sprite_136
+  - first:
+      213: 8656500913824026604
+    second: Barbarian_Sprite_137
+  - first:
+      213: 2988961628613811900
+    second: Barbarian_Sprite_138
+  - first:
+      213: -203674044947090310
+    second: Barbarian_Sprite_139
+  - first:
+      213: 5798595456527591664
+    second: Barbarian_Sprite_140
+  - first:
+      213: 2879168687949557093
+    second: Barbarian_Sprite_141
+  - first:
+      213: -5761263337201793177
+    second: Barbarian_Sprite_142
+  - first:
+      213: -4962449201155633151
+    second: Barbarian_Sprite_143
+  - first:
+      213: 6078971029137801344
+    second: Barbarian_Sprite_144
+  - first:
+      213: -4542240287641603236
+    second: Barbarian_Sprite_145
+  - first:
+      213: -3875360360162873608
+    second: Barbarian_Sprite_146
+  - first:
+      213: -354270369509624043
+    second: Barbarian_Sprite_147
+  - first:
+      213: 6214768202829404686
+    second: Barbarian_Sprite_148
+  - first:
+      213: 1855059061242972865
+    second: Barbarian_Sprite_149
+  - first:
+      213: 7308485403724898400
+    second: Barbarian_Sprite_150
+  - first:
+      213: -2226582577142426774
+    second: Barbarian_Sprite_151
+  - first:
+      213: 7488470808379039455
+    second: Barbarian_Sprite_152
+  - first:
+      213: 648222619050369981
+    second: Barbarian_Sprite_153
+  - first:
+      213: -5139164828454108772
+    second: Barbarian_Sprite_154
+  - first:
+      213: -4428478843342472077
+    second: Barbarian_Sprite_155
+  - first:
+      213: 4721972022194770175
+    second: Barbarian_Sprite_156
+  - first:
+      213: 4836842188659202286
+    second: Barbarian_Sprite_157
+  - first:
+      213: -4073579064213846512
+    second: Barbarian_Sprite_158
+  - first:
+      213: -1660854969313638130
+    second: Barbarian_Sprite_159
+  - first:
+      213: 6733605662535735291
+    second: Barbarian_Sprite_160
+  - first:
+      213: -4097254278498141740
+    second: Barbarian_Sprite_161
+  - first:
+      213: -8287819809035936292
+    second: Barbarian_Sprite_162
+  - first:
+      213: -4395371004794447637
+    second: Barbarian_Sprite_163
+  - first:
+      213: -4912974593070594057
+    second: Barbarian_Sprite_164
+  - first:
+      213: 7222574706816824078
+    second: Barbarian_Sprite_165
+  - first:
+      213: -3483789314646682649
+    second: Barbarian_Sprite_166
+  - first:
+      213: 7695690960693544387
+    second: Barbarian_Sprite_167
+  - first:
+      213: -543483699456347253
+    second: Barbarian_Sprite_168
+  - first:
+      213: 8578947069061951219
+    second: Barbarian_Sprite_169
+  - first:
+      213: -8964626887598938155
+    second: Barbarian_Sprite_170
+  - first:
+      213: -4511585631408244082
+    second: Barbarian_Sprite_171
+  - first:
+      213: -5734434977334140338
+    second: Barbarian_Sprite_172
+  - first:
+      213: -4007485166362213770
+    second: Barbarian_Sprite_173
+  - first:
+      213: 8307024827637625288
+    second: Barbarian_Sprite_174
+  - first:
+      213: -1765160211614873377
+    second: Barbarian_Sprite_175
+  - first:
+      213: -8569813451625328319
+    second: Barbarian_Sprite_176
+  - first:
+      213: 3303778237311970953
+    second: Barbarian_Sprite_177
+  - first:
+      213: 2128744442093702408
+    second: Barbarian_Sprite_178
+  - first:
+      213: 384994902278458868
+    second: Barbarian_Sprite_179
+  - first:
+      213: 4120701395128267223
+    second: Barbarian_Sprite_180
+  - first:
+      213: -4342750613427036267
+    second: Barbarian_Sprite_181
+  - first:
+      213: 6502575187770271285
+    second: Barbarian_Sprite_182
+  - first:
+      213: -6429286408407368851
+    second: Barbarian_Sprite_183
+  - first:
+      213: 5806063551624279453
+    second: Barbarian_Sprite_184
+  - first:
+      213: 6632464309455688778
+    second: Barbarian_Sprite_185
+  - first:
+      213: -1930910532003628233
+    second: Barbarian_Sprite_186
+  - first:
+      213: 7077565831759606102
+    second: Barbarian_Sprite_187
+  - first:
+      213: -602190297043656672
+    second: Barbarian_Sprite_188
+  - first:
+      213: -3575388148930564930
+    second: Barbarian_Sprite_189
+  - first:
+      213: 9120615162997842039
+    second: Barbarian_Sprite_190
+  - first:
+      213: 8994976341848409730
+    second: Barbarian_Sprite_191
+  - first:
+      213: -7425848799713558574
+    second: Barbarian_Sprite_192
+  - first:
+      213: -7338325516444180919
+    second: Barbarian_Sprite_193
+  - first:
+      213: 4984341469663624359
+    second: Barbarian_Sprite_194
+  - first:
+      213: -9138551382833938980
+    second: Barbarian_Sprite_195
+  - first:
+      213: -6590836409775143055
+    second: Barbarian_Sprite_196
+  - first:
+      213: 663469641600143241
+    second: Barbarian_Sprite_197
+  - first:
+      213: 971570508821670166
+    second: Barbarian_Sprite_198
+  - first:
+      213: -3652172352924223441
+    second: Barbarian_Sprite_199
+  - first:
+      213: 5428177591193678837
+    second: Barbarian_Sprite_200
+  - first:
+      213: 100067254606340827
+    second: Barbarian_Sprite_201
+  - first:
+      213: -6202383468335694103
+    second: Barbarian_Sprite_202
+  - first:
+      213: 8295146638276155927
+    second: Barbarian_Sprite_203
+  - first:
+      213: 6316610479240239030
+    second: Barbarian_Sprite_204
+  - first:
+      213: 5586560107946955511
+    second: Barbarian_Sprite_205
+  - first:
+      213: 5334897398998938792
+    second: Barbarian_Sprite_206
+  - first:
+      213: -88874310731839250
+    second: Barbarian_Sprite_207
+  - first:
+      213: 5679949614845563523
+    second: Barbarian_Sprite_208
+  - first:
+      213: 9011835337960411289
+    second: Barbarian_Sprite_209
+  - first:
+      213: 6957480226025645225
+    second: Barbarian_Sprite_210
+  - first:
+      213: -8494618764233113112
+    second: Barbarian_Sprite_211
+  - first:
+      213: 6625149125291613026
+    second: Barbarian_Sprite_212
+  - first:
+      213: 2762683336736207124
+    second: Barbarian_Sprite_213
+  - first:
+      213: -7290430995986416015
+    second: Barbarian_Sprite_214
+  - first:
+      213: -6872678642156382917
+    second: Barbarian_Sprite_215
+  - first:
+      213: 1965737041530679781
+    second: Barbarian_Sprite_216
+  - first:
+      213: 5520306761425944298
+    second: Barbarian_Sprite_217
+  - first:
+      213: 5865190841125859268
+    second: Barbarian_Sprite_218
+  - first:
+      213: -7205074012200420276
+    second: Barbarian_Sprite_219
+  - first:
+      213: -6298506354512662095
+    second: Barbarian_Sprite_220
+  - first:
+      213: 5928134852601305469
+    second: Barbarian_Sprite_221
+  - first:
+      213: -6132537599946369467
+    second: Barbarian_Sprite_222
+  - first:
+      213: -736853879240013662
+    second: Barbarian_Sprite_223
+  - first:
+      213: -9028467151461478359
+    second: Barbarian_Sprite_224
+  - first:
+      213: -6218785892927182263
+    second: Barbarian_Sprite_225
+  - first:
+      213: -2927241465751566932
+    second: Barbarian_Sprite_226
+  - first:
+      213: -5378482665432002976
+    second: Barbarian_Sprite_227
+  - first:
+      213: -8767512262788342084
+    second: Barbarian_Sprite_228
+  - first:
+      213: 4880920249244545744
+    second: Barbarian_Sprite_229
+  - first:
+      213: -1902519594974474370
+    second: Barbarian_Sprite_230
+  - first:
+      213: 1259086083236278920
+    second: Barbarian_Sprite_231
+  - first:
+      213: -8929632270816182929
+    second: Barbarian_Sprite_232
+  - first:
+      213: 4602309491465965945
+    second: Barbarian_Sprite_233
+  - first:
+      213: 3111420663880033177
+    second: Barbarian_Sprite_234
+  - first:
+      213: 7996784904654862722
+    second: Barbarian_Sprite_235
+  - first:
+      213: -6599550173082995406
+    second: Barbarian_Sprite_236
+  - first:
+      213: -7339556201431342640
+    second: Barbarian_Sprite_237
+  - first:
+      213: 7207110486621586636
+    second: Barbarian_Sprite_238
+  - first:
+      213: 6960184178955805170
+    second: Barbarian_Sprite_239
+  - first:
+      213: 5049164115503872332
+    second: Barbarian_Sprite_240
+  - first:
+      213: -393497413733117728
+    second: Barbarian_Sprite_241
+  - first:
+      213: -3515924483539083893
+    second: Barbarian_Sprite_242
+  - first:
+      213: -7290634482363978801
+    second: Barbarian_Sprite_243
+  - first:
+      213: -7107067811310167540
+    second: Barbarian_Sprite_244
+  - first:
+      213: -6715130657333457166
+    second: Barbarian_Sprite_245
+  - first:
+      213: -7186560982857183522
+    second: Barbarian_Sprite_246
+  - first:
+      213: -2787324403381487374
+    second: Barbarian_Sprite_247
+  - first:
+      213: 1904223836491223205
+    second: Barbarian_Sprite_248
+  - first:
+      213: -4606984284067027796
+    second: Barbarian_Sprite_249
+  - first:
+      213: 4318170811240171306
+    second: Barbarian_Sprite_250
+  - first:
+      213: 2531044660411037132
+    second: Barbarian_Sprite_251
+  - first:
+      213: 508120767658304164
+    second: Barbarian_Sprite_252
+  - first:
+      213: 2297929497903023046
+    second: Barbarian_Sprite_253
+  - first:
+      213: -5690083067302216623
+    second: Barbarian_Sprite_254
+  - first:
+      213: 6321329723942411060
+    second: Barbarian_Sprite_255
+  - first:
+      213: -9122728494740719544
+    second: Barbarian_Sprite_256
+  - first:
+      213: 2640975919573493835
+    second: Barbarian_Sprite_257
+  - first:
+      213: -5867555721795281215
+    second: Barbarian_Sprite_258
+  - first:
+      213: -6667130111551430275
+    second: Barbarian_Sprite_259
+  - first:
+      213: -3557495398901020516
+    second: Barbarian_Sprite_260
+  - first:
+      213: 3138254316681060965
+    second: Barbarian_Sprite_261
+  - first:
+      213: 1260205264621546649
+    second: Barbarian_Sprite_262
+  - first:
+      213: 1430166546801089788
+    second: Barbarian_Sprite_263
+  - first:
+      213: -5928567535446154125
+    second: Barbarian_Sprite_264
+  - first:
+      213: 1199415511371097372
+    second: Barbarian_Sprite_265
+  - first:
+      213: 4259210755106166306
+    second: Barbarian_Sprite_266
+  - first:
+      213: -2709868995388184977
+    second: Barbarian_Sprite_267
+  - first:
+      213: -2651841298558035949
+    second: Barbarian_Sprite_268
+  - first:
+      213: -3261608810217064345
+    second: Barbarian_Sprite_269
+  - first:
+      213: -6061582303680764948
+    second: Barbarian_Sprite_270
+  - first:
+      213: 7707868741305601058
+    second: Barbarian_Sprite_271
+  - first:
+      213: -4242272267203090688
+    second: Barbarian_Sprite_272
+  - first:
+      213: 4686851756872532628
+    second: Barbarian_Sprite_273
+  - first:
+      213: -4315431892154592754
+    second: Barbarian_Sprite_274
+  - first:
+      213: -365086266321834533
+    second: Barbarian_Sprite_275
+  - first:
+      213: 6173124988613544101
+    second: Barbarian_Sprite_276
+  - first:
+      213: 1860712566328154361
+    second: Barbarian_Sprite_277
+  - first:
+      213: 5975653524514549823
+    second: Barbarian_Sprite_278
+  - first:
+      213: 5027069262603591536
+    second: Barbarian_Sprite_279
+  - first:
+      213: 9095466223342476355
+    second: Barbarian_Sprite_280
+  - first:
+      213: 6583924074684554805
+    second: Barbarian_Sprite_281
+  - first:
+      213: -4622234116973276434
+    second: Barbarian_Sprite_282
+  - first:
+      213: 7682010476129432842
+    second: Barbarian_Sprite_283
+  - first:
+      213: 5071919486493313105
+    second: Barbarian_Sprite_284
+  - first:
+      213: -2463241779738854841
+    second: Barbarian_Sprite_285
+  - first:
+      213: -5934049119705689774
+    second: Barbarian_Sprite_286
+  - first:
+      213: 191750184941794558
+    second: Barbarian_Sprite_287
+  - first:
+      213: 5258811584657187283
+    second: Barbarian_Sprite_288
+  - first:
+      213: -5707220340920822090
+    second: Barbarian_Sprite_289
+  - first:
+      213: -7967404354185948582
+    second: Barbarian_Sprite_290
+  - first:
+      213: 1470350913610050059
+    second: Barbarian_Sprite_291
+  - first:
+      213: -2216231690899683421
+    second: Barbarian_Sprite_292
+  - first:
+      213: -3391125990758972070
+    second: Barbarian_Sprite_293
+  - first:
+      213: -8861674954697653313
+    second: Barbarian_Sprite_294
+  - first:
+      213: -3660765383637456334
+    second: Barbarian_Sprite_295
+  - first:
+      213: 9169882332825617315
+    second: Barbarian_Sprite_296
+  - first:
+      213: 5916766265354567980
+    second: Barbarian_Sprite_297
+  - first:
+      213: 7017002328227786793
+    second: Barbarian_Sprite_298
+  - first:
+      213: -5507945866640204494
+    second: Barbarian_Sprite_299
+  - first:
+      213: -2725152194607765499
+    second: Barbarian_Sprite_300
+  - first:
+      213: 58315614561382254
+    second: Barbarian_Sprite_301
+  - first:
+      213: -6619598581813274699
+    second: Barbarian_Sprite_302
+  - first:
+      213: 7800375680219461922
+    second: Barbarian_Sprite_303
+  - first:
+      213: -3928568100829752431
+    second: Barbarian_Sprite_304
+  - first:
+      213: 7027611475951008858
+    second: Barbarian_Sprite_305
+  - first:
+      213: 1479909679590683600
+    second: Barbarian_Sprite_306
+  - first:
+      213: 1169268449301100761
+    second: Barbarian_Sprite_307
+  - first:
+      213: 913848900758516808
+    second: Barbarian_Sprite_308
+  - first:
+      213: 8988331144445677933
+    second: Barbarian_Sprite_309
+  - first:
+      213: -7349471301454498935
+    second: Barbarian_Sprite_310
+  - first:
+      213: -4189751002401220628
+    second: Barbarian_Sprite_311
+  - first:
+      213: 8715212096331694732
+    second: Barbarian_Sprite_312
+  - first:
+      213: -7889646080284292900
+    second: Barbarian_Sprite_313
+  - first:
+      213: 8426994876038043071
+    second: Barbarian_Sprite_314
+  - first:
+      213: -2841104077588316923
+    second: Barbarian_Sprite_315
+  - first:
+      213: -5141385314224606405
+    second: Barbarian_Sprite_316
+  - first:
+      213: -8287696164152946665
+    second: Barbarian_Sprite_317
+  - first:
+      213: 9139691246778776000
+    second: Barbarian_Sprite_318
+  - first:
+      213: -3442834411896946515
+    second: Barbarian_Sprite_319
+  - first:
+      213: -1781049827862708180
+    second: Barbarian_Sprite_320
+  - first:
+      213: 2915356520273944352
+    second: Barbarian_Sprite_321
+  - first:
+      213: 5017282023140010827
+    second: Barbarian_Sprite_322
+  - first:
+      213: -8775847332969219222
+    second: Barbarian_Sprite_323
+  - first:
+      213: -5388063027764504924
+    second: Barbarian_Sprite_324
+  - first:
+      213: 8998934207952675580
+    second: Barbarian_Sprite_325
+  - first:
+      213: -8815891181203112867
+    second: Barbarian_Sprite_326
+  - first:
+      213: 3406429480196150087
+    second: Barbarian_Sprite_327
+  - first:
+      213: 420119215824095461
+    second: Barbarian_Sprite_328
+  - first:
+      213: 1266332370823152007
+    second: Barbarian_Sprite_329
+  - first:
+      213: 1350167822765392245
+    second: Barbarian_Sprite_330
+  - first:
+      213: 5500794595762786391
+    second: Barbarian_Sprite_331
+  - first:
+      213: 6996436923411946792
+    second: Barbarian_Sprite_332
+  - first:
+      213: 393937132927416061
+    second: Barbarian_Sprite_333
+  - first:
+      213: -5592730990053808661
+    second: Barbarian_Sprite_334
+  - first:
+      213: 570170452741920036
+    second: Barbarian_Sprite_335
+  - first:
+      213: -6635621425926028620
+    second: Barbarian_Sprite_336
+  - first:
+      213: 159986460949268003
+    second: Barbarian_Sprite_337
+  - first:
+      213: -2568117238783212688
+    second: Barbarian_Sprite_338
+  - first:
+      213: -5151829762370382096
+    second: Barbarian_Sprite_339
+  - first:
+      213: -3821300124209387039
+    second: Barbarian_Sprite_340
+  - first:
+      213: -6164135418509392132
+    second: Barbarian_Sprite_341
+  - first:
+      213: -8525917903486076502
+    second: Barbarian_Sprite_342
+  - first:
+      213: 6357878625669538952
+    second: Barbarian_Sprite_343
+  - first:
+      213: -7162906110915219390
+    second: Barbarian_Sprite_344
+  - first:
+      213: 197569222371886947
+    second: Barbarian_Sprite_345
+  - first:
+      213: -317506039062408684
+    second: Barbarian_Sprite_346
+  - first:
+      213: 3081200312306697755
+    second: Barbarian_Sprite_347
+  - first:
+      213: 1771682953760500211
+    second: Barbarian_Sprite_348
+  - first:
+      213: 8450381125788797638
+    second: Barbarian_Sprite_349
+  - first:
+      213: -3817864824164851091
+    second: Barbarian_Sprite_350
+  - first:
+      213: -1173513718724248776
+    second: Barbarian_Sprite_351
+  - first:
+      213: 3320819361045534641
+    second: Barbarian_Sprite_352
+  - first:
+      213: 8120156844195507662
+    second: Barbarian_Sprite_353
+  - first:
+      213: -5130055008074849402
+    second: Barbarian_Sprite_354
+  - first:
+      213: -8718427569437220192
+    second: Barbarian_Sprite_355
+  - first:
+      213: -4107753490942719366
+    second: Barbarian_Sprite_356
+  - first:
+      213: 9166959718965326683
+    second: Barbarian_Sprite_357
+  - first:
+      213: -3996886788051277959
+    second: Barbarian_Sprite_358
+  - first:
+      213: 111519163945095687
+    second: Barbarian_Sprite_359
+  - first:
+      213: 4941621694033287853
+    second: Barbarian_Sprite_360
+  - first:
+      213: -6970959087858978569
+    second: Barbarian_Sprite_361
+  - first:
+      213: 5726894568991158613
+    second: Barbarian_Sprite_362
+  - first:
+      213: -4942915816238874176
+    second: Barbarian_Sprite_363
+  - first:
+      213: -6309233004127883906
+    second: Barbarian_Sprite_364
+  - first:
+      213: -7168041689465729179
+    second: Barbarian_Sprite_365
+  - first:
+      213: -1062499529951149151
+    second: Barbarian_Sprite_366
+  - first:
+      213: -2367610643720986505
+    second: Barbarian_Sprite_367
+  - first:
+      213: -1845186695061129799
+    second: Barbarian_Sprite_368
+  - first:
+      213: 1310753811495311678
+    second: Barbarian_Sprite_369
+  - first:
+      213: -1885589501937980653
+    second: Barbarian_Sprite_370
+  - first:
+      213: 1577024477297110750
+    second: Barbarian_Sprite_371
+  - first:
+      213: 4140243504911252616
+    second: Barbarian_Sprite_372
+  - first:
+      213: -6200835217586426906
+    second: Barbarian_Sprite_373
+  - first:
+      213: -6827528595376394822
+    second: Barbarian_Sprite_374
+  - first:
+      213: 7087815077443956901
+    second: Barbarian_Sprite_375
+  - first:
+      213: 3627627682088058362
+    second: Barbarian_Sprite_376
+  - first:
+      213: -924814497345502104
+    second: Barbarian_Sprite_377
+  - first:
+      213: -6776168877879132346
+    second: Barbarian_Sprite_378
+  - first:
+      213: -2712865868770223928
+    second: Barbarian_Sprite_379
+  - first:
+      213: -6619144151501823335
+    second: Barbarian_Sprite_380
+  - first:
+      213: -8589271738221829887
+    second: Barbarian_Sprite_381
+  - first:
+      213: -7820260846615689053
+    second: Barbarian_Sprite_382
+  - first:
+      213: 2480781441314761299
+    second: Barbarian_Sprite_383
+  - first:
+      213: -8878497119072085048
+    second: Barbarian_Sprite_384
+  - first:
+      213: 2075182182441919106
+    second: Barbarian_Sprite_385
+  - first:
+      213: 4350796471140472937
+    second: Barbarian_Sprite_386
+  - first:
+      213: -595465627432358426
+    second: Barbarian_Sprite_387
+  - first:
+      213: -1238084884196172418
+    second: Barbarian_Sprite_388
+  - first:
+      213: 8697691150517969621
+    second: Barbarian_Sprite_389
+  - first:
+      213: 1497897768377795216
+    second: Barbarian_Sprite_390
+  - first:
+      213: -6158624502179850417
+    second: Barbarian_Sprite_391
+  - first:
+      213: 6841505785627527659
+    second: Barbarian_Sprite_392
+  - first:
+      213: -3988093053585734231
+    second: Barbarian_Sprite_393
+  - first:
+      213: 8545308132674645847
+    second: Barbarian_Sprite_394
+  - first:
+      213: 4008927279270710044
+    second: Barbarian_Sprite_395
+  - first:
+      213: 39713901826676628
+    second: Barbarian_Sprite_396
+  - first:
+      213: -2021519303799375218
+    second: Barbarian_Sprite_397
+  - first:
+      213: -8575072024775402703
+    second: Barbarian_Sprite_398
+  - first:
+      213: -5624726223734970296
+    second: Barbarian_Sprite_399
+  - first:
+      213: 6967772635499291974
+    second: Barbarian_Sprite_400
+  - first:
+      213: 8158999653266229652
+    second: Barbarian_Sprite_401
+  - first:
+      213: -2186879925040682800
+    second: Barbarian_Sprite_402
+  - first:
+      213: -4531200451571121889
+    second: Barbarian_Sprite_403
+  - first:
+      213: 8599646271182900596
+    second: Barbarian_Sprite_404
+  - first:
+      213: 439061137623540741
+    second: Barbarian_Sprite_405
+  - first:
+      213: 2507573298092653056
+    second: Barbarian_Sprite_406
+  - first:
+      213: 4611076115687632881
+    second: Barbarian_Sprite_407
+  - first:
+      213: 6758441255975348518
+    second: Barbarian_Sprite_408
+  - first:
+      213: 8644652791407913946
+    second: Barbarian_Sprite_409
+  - first:
+      213: 3912545739645581035
+    second: Barbarian_Sprite_410
+  - first:
+      213: 3566321878740219339
+    second: Barbarian_Sprite_411
+  - first:
+      213: 2863639531714456803
+    second: Barbarian_Sprite_412
+  - first:
+      213: 231204084121992212
+    second: Barbarian_Sprite_413
+  - first:
+      213: 8999492806838601478
+    second: Barbarian_Sprite_414
+  - first:
+      213: -1568573525715857311
+    second: Barbarian_Sprite_415
+  - first:
+      213: -1021139543159518506
+    second: Barbarian_Sprite_416
+  - first:
+      213: -1878863233837657386
+    second: Barbarian_Sprite_417
+  - first:
+      213: 6109224227203678854
+    second: Barbarian_Sprite_418
+  - first:
+      213: -5605058357092319365
+    second: Barbarian_Sprite_419
+  - first:
+      213: -7276702777531544965
+    second: Barbarian_Sprite_420
+  - first:
+      213: 1382576944454273500
+    second: Barbarian_Sprite_421
+  - first:
+      213: 285544357142331590
+    second: Barbarian_Sprite_422
+  - first:
+      213: 8249729936284175763
+    second: Barbarian_Sprite_423
+  - first:
+      213: 4378840765611071888
+    second: Barbarian_Sprite_424
+  - first:
+      213: 8012890883182324083
+    second: Barbarian_Sprite_425
+  - first:
+      213: -8308251440511893302
+    second: Barbarian_Sprite_426
+  - first:
+      213: 8107171325339617317
+    second: Barbarian_Sprite_427
+  - first:
+      213: -6496425159069243626
+    second: Barbarian_Sprite_428
+  - first:
+      213: -2299231144227436173
+    second: Barbarian_Sprite_429
+  - first:
+      213: -5518955791889151798
+    second: Barbarian_Sprite_430
+  - first:
+      213: -7835768847751036763
+    second: Barbarian_Sprite_431
+  - first:
+      213: -1247754557135338242
+    second: Barbarian_Sprite_432
+  - first:
+      213: -7824711344932806260
+    second: Barbarian_Sprite_433
+  - first:
+      213: -4832003949202206275
+    second: Barbarian_Sprite_434
+  - first:
+      213: -1443885787245563378
+    second: Barbarian_Sprite_435
+  - first:
+      213: -7395469028315486014
+    second: Barbarian_Sprite_436
+  - first:
+      213: -4954282252344724128
+    second: Barbarian_Sprite_437
+  - first:
+      213: 4068487078164677583
+    second: Barbarian_Sprite_438
+  - first:
+      213: -2349532817021782954
+    second: Barbarian_Sprite_439
+  - first:
+      213: 3698249452944264478
+    second: Barbarian_Sprite_440
+  - first:
+      213: 1895490936795669626
+    second: Barbarian_Sprite_441
+  - first:
+      213: -6236438495768304598
+    second: Barbarian_Sprite_442
+  - first:
+      213: -853143488806648429
+    second: Barbarian_Sprite_443
+  - first:
+      213: -6866271467072686254
+    second: Barbarian_Sprite_444
+  - first:
+      213: 2032812742965018238
+    second: Barbarian_Sprite_445
+  - first:
+      213: 1409991576800912285
+    second: Barbarian_Sprite_446
+  - first:
+      213: 8742110576354377454
+    second: Barbarian_Sprite_447
+  - first:
+      213: 4633718774754828335
+    second: Barbarian_Sprite_448
+  - first:
+      213: -1792658579318054457
+    second: Barbarian_Sprite_449
+  - first:
+      213: 8565226533191522928
+    second: Barbarian_Sprite_450
+  - first:
+      213: 7510858361416546967
+    second: Barbarian_Sprite_451
+  - first:
+      213: 3393694770828468645
+    second: Barbarian_Sprite_452
+  - first:
+      213: 1827359067922508737
+    second: Barbarian_Sprite_453
+  - first:
+      213: -6483934141869621699
+    second: Barbarian_Sprite_454
+  - first:
+      213: -8344020268862277004
+    second: Barbarian_Sprite_455
+  - first:
+      213: -5657436946853680404
+    second: Barbarian_Sprite_456
+  - first:
+      213: -1562572365000630409
+    second: Barbarian_Sprite_457
+  - first:
+      213: 5442395472592763194
+    second: Barbarian_Sprite_458
+  - first:
+      213: 2324387288129792596
+    second: Barbarian_Sprite_459
+  - first:
+      213: 1923632579206129557
+    second: Barbarian_Sprite_460
+  - first:
+      213: 3696619693184221558
+    second: Barbarian_Sprite_461
+  - first:
+      213: -8443156601288621679
+    second: Barbarian_Sprite_462
+  - first:
+      213: 4312975102552967990
+    second: Barbarian_Sprite_463
+  - first:
+      213: 8117029323311489999
+    second: Barbarian_Sprite_464
+  - first:
+      213: 230678242034498334
+    second: Barbarian_Sprite_465
+  - first:
+      213: 7151118552399173828
+    second: Barbarian_Sprite_466
+  - first:
+      213: 7594649757736029079
+    second: Barbarian_Sprite_467
+  - first:
+      213: 3880107027374448012
+    second: Barbarian_Sprite_468
+  - first:
+      213: 2394696143177732603
+    second: Barbarian_Sprite_469
+  - first:
+      213: -6061142070300118358
+    second: Barbarian_Sprite_470
+  - first:
+      213: -5638060191064704549
+    second: Barbarian_Sprite_471
+  - first:
+      213: -2581576126034914239
+    second: Barbarian_Sprite_472
+  - first:
+      213: -4923689710264272933
+    second: Barbarian_Sprite_473
+  - first:
+      213: 5460986717932195018
+    second: Barbarian_Sprite_474
+  - first:
+      213: -3232728301557059718
+    second: Barbarian_Sprite_475
+  - first:
+      213: 585583069243166935
+    second: Barbarian_Sprite_476
+  - first:
+      213: -4224142985340799611
+    second: Barbarian_Sprite_477
+  - first:
+      213: 8135269318375235694
+    second: Barbarian_Sprite_478
+  - first:
+      213: -4175260573670731283
+    second: Barbarian_Sprite_479
+  - first:
+      213: 8087750073630411522
+    second: Barbarian_Sprite_480
+  - first:
+      213: -19693128996783725
+    second: Barbarian_Sprite_481
+  - first:
+      213: 6805891646056340607
+    second: Barbarian_Sprite_482
+  - first:
+      213: -9069366243695388671
+    second: Barbarian_Sprite_483
+  - first:
+      213: -2289315240279787947
+    second: Barbarian_Sprite_484
+  - first:
+      213: 6549027811150473058
+    second: Barbarian_Sprite_485
+  - first:
+      213: 4045570404354416514
+    second: Barbarian_Sprite_486
+  - first:
+      213: -2941779122559001512
+    second: Barbarian_Sprite_487
+  - first:
+      213: 4191861144616941143
+    second: Barbarian_Sprite_488
+  - first:
+      213: 6023664729498790795
+    second: Barbarian_Sprite_489
+  - first:
+      213: -4792977520447005605
+    second: Barbarian_Sprite_490
+  - first:
+      213: -6946374872869623930
+    second: Barbarian_Sprite_491
+  - first:
+      213: -1764884577887480810
+    second: Barbarian_Sprite_492
+  - first:
+      213: 3011880061673654232
+    second: Barbarian_Sprite_493
+  - first:
+      213: 802528549455328306
+    second: Barbarian_Sprite_494
+  - first:
+      213: -5582327514369811129
+    second: Barbarian_Sprite_495
+  - first:
+      213: -8152408414952807184
+    second: Barbarian_Sprite_496
+  - first:
+      213: 961099615333436293
+    second: Barbarian_Sprite_497
+  - first:
+      213: -5798943664409821796
+    second: Barbarian_Sprite_498
+  - first:
+      213: -9038452943425045777
+    second: Barbarian_Sprite_499
+  - first:
+      213: 8351745458400740006
+    second: Barbarian_Sprite_500
+  - first:
+      213: 3394304492734348980
+    second: Barbarian_Sprite_501
+  - first:
+      213: 2294266044113781644
+    second: Barbarian_Sprite_502
+  - first:
+      213: 6183575410426734254
+    second: Barbarian_Sprite_503
+  - first:
+      213: 2969499052962955097
+    second: Barbarian_Sprite_504
+  - first:
+      213: 1040375046256817662
+    second: Barbarian_Sprite_505
+  - first:
+      213: 7306207907771514103
+    second: Barbarian_Sprite_506
+  - first:
+      213: 4382989796607731433
+    second: Barbarian_Sprite_507
+  - first:
+      213: 4601158043335391884
+    second: Barbarian_Sprite_508
+  - first:
+      213: 1342191819203362122
+    second: Barbarian_Sprite_509
+  - first:
+      213: 2890730403646939752
+    second: Barbarian_Sprite_510
+  - first:
+      213: -1378654551067533054
+    second: Barbarian_Sprite_511
+  - first:
+      213: 6080777536017466872
+    second: Barbarian_Sprite_512
+  - first:
+      213: 4952384384133067516
+    second: Barbarian_Sprite_513
+  - first:
+      213: -4316279066563540743
+    second: Barbarian_Sprite_514
+  - first:
+      213: 6652780611167794979
+    second: Barbarian_Sprite_515
+  - first:
+      213: 5704849770407013727
+    second: Barbarian_Sprite_516
+  - first:
+      213: 433222496182855677
+    second: Barbarian_Sprite_517
+  - first:
+      213: -6696831664150009363
+    second: Barbarian_Sprite_518
+  - first:
+      213: -3068701975625102950
+    second: Barbarian_Sprite_519
+  - first:
+      213: 1312541767066788937
+    second: Barbarian_Sprite_520
+  - first:
+      213: -8796032936547176041
+    second: Barbarian_Sprite_521
+  - first:
+      213: 8980185214463104262
+    second: Barbarian_Sprite_522
+  - first:
+      213: -8050508103409564826
+    second: Barbarian_Sprite_523
+  - first:
+      213: -498276884795254877
+    second: Barbarian_Sprite_524
+  - first:
+      213: 1305943581853433553
+    second: Barbarian_Sprite_525
+  - first:
+      213: -6035346444372483889
+    second: Barbarian_Sprite_526
+  - first:
+      213: -8637784394321434993
+    second: Barbarian_Sprite_527
+  - first:
+      213: -8350360104457844566
+    second: Barbarian_Sprite_528
+  - first:
+      213: 8440171170693541622
+    second: Barbarian_Sprite_529
+  - first:
+      213: -804502282348120624
+    second: Barbarian_Sprite_530
+  - first:
+      213: -7662849417798119695
+    second: Barbarian_Sprite_531
+  - first:
+      213: 3158202742131010160
+    second: Barbarian_Sprite_532
+  - first:
+      213: -5307366643999818940
+    second: Barbarian_Sprite_533
+  - first:
+      213: 3019699190469169166
+    second: Barbarian_Sprite_534
+  - first:
+      213: -3377077910639974750
+    second: Barbarian_Sprite_535
+  - first:
+      213: -996555327676394726
+    second: Barbarian_Sprite_536
+  - first:
+      213: 44904105347893019
+    second: Barbarian_Sprite_537
+  - first:
+      213: -113151130920010884
+    second: Barbarian_Sprite_538
+  - first:
+      213: 777306616251111305
+    second: Barbarian_Sprite_539
+  - first:
+      213: 5896707691299284187
+    second: Barbarian_Sprite_540
+  - first:
+      213: 1829141824582557787
+    second: Barbarian_Sprite_541
+  - first:
+      213: 387318807095790835
+    second: Barbarian_Sprite_542
+  - first:
+      213: -1524097252798313928
+    second: Barbarian_Sprite_543
+  - first:
+      213: -4545008544059526805
+    second: Barbarian_Sprite_544
+  - first:
+      213: 8053902953213082844
+    second: Barbarian_Sprite_545
+  - first:
+      213: 7203145582153796070
+    second: Barbarian_Sprite_546
+  - first:
+      213: -3177743562842361067
+    second: Barbarian_Sprite_547
+  - first:
+      213: -7588433177144042104
+    second: Barbarian_Sprite_548
+  - first:
+      213: 1424488938185867967
+    second: Barbarian_Sprite_549
+  - first:
+      213: 9064711863948428749
+    second: Barbarian_Sprite_550
+  - first:
+      213: -1815073603005188540
+    second: Barbarian_Sprite_551
+  - first:
+      213: 2184587550625806713
+    second: Barbarian_Sprite_552
+  - first:
+      213: 1021012723514091164
+    second: Barbarian_Sprite_553
+  - first:
+      213: -577196267349775735
+    second: Barbarian_Sprite_554
+  - first:
+      213: 4197052301387714900
+    second: Barbarian_Sprite_555
+  - first:
+      213: 4548599170754657119
+    second: Barbarian_Sprite_556
+  - first:
+      213: 391037524434444334
+    second: Barbarian_Sprite_557
+  - first:
+      213: 3653749554161186649
+    second: Barbarian_Sprite_558
+  - first:
+      213: 1802127197322379481
+    second: Barbarian_Sprite_559
+  - first:
+      213: -8505026091272967153
+    second: Barbarian_Sprite_560
+  - first:
+      213: -8298694019076320541
+    second: Barbarian_Sprite_561
+  - first:
+      213: 7727359564096967429
+    second: Barbarian_Sprite_562
+  - first:
+      213: -411423716704269161
+    second: Barbarian_Sprite_563
+  - first:
+      213: -5160206282970692255
+    second: Barbarian_Sprite_564
+  - first:
+      213: 6519521420228206772
+    second: Barbarian_Sprite_565
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbarian_Sprite_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6854a631fbce7ae0800000000000000
+      internalID: -1549576984904574866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743fd1c441cd1b5d0800000000000000
+      internalID: -3048413493018627257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c6f1d9ece5a1900800000000000000
+      internalID: 655940937228184590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25705cca7ef0a4c0800000000000000
+      internalID: -4278139842634681044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b3c2c135b6d7170800000000000000
+      internalID: 8177810503073807248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fb722a33980fe50800000000000000
+      internalID: 6841118688832634747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_107
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5322ac4db034792a0800000000000000
+      internalID: -6730837399988198859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_108
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fce95fe417c60560800000000000000
+      internalID: 7279724740419906800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_109
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ddc3532c54e9180800000000000000
+      internalID: -9106764696077410926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c31f70dbc637e70800000000000000
+      internalID: 9111746030238514332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aaa9ad443ff4460800000000000000
+      internalID: 7228263404003830410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917bdaf3034a11cf0800000000000000
+      internalID: -283264774413895911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_113
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88399989a1b8942b0800000000000000
+      internalID: -5599791715312888952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_114
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3c31f5f9742a970800000000000000
+      internalID: 8764646574636909538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41488528fd0b7940800000000000000
+      internalID: 5294841146336887114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_116
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78db0cadd3fc8b300800000000000000
+      internalID: 268192042398563719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_117
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16edd7a12667570c0800000000000000
+      internalID: -4578623282428912031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_118
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfd205acfc88d2d0800000000000000
+      internalID: -3253695714047107108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03702f93025e32e0800000000000000
+      internalID: -2144186197073693938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d642fdcded2325230800000000000000
+      internalID: 3626016582756410477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4d6d03bff273db0800000000000000
+      internalID: -4812324920919403311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaf718b9f3531c70800000000000000
+      internalID: 8940582017261107881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_123
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051c09af157cf6960800000000000000
+      internalID: 7597510251307385168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_124
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea62f825448a88f0800000000000000
+      internalID: -537471772942767389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_125
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d2fdccfa95ce400800000000000000
+      internalID: 354757082246753591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72729ffa2f2657210800000000000000
+      internalID: 1330078059431798567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_127
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cca5418de2241a0800000000000000
+      internalID: -6826842579550942091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959fd658bd0a1880800000000000000
+      internalID: -8639577849774238317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17386fc746e159ca0800000000000000
+      internalID: -6010864710713965711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a91d42597956a90800000000000000
+      internalID: -7321278952397235579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b1f294efb21b200800000000000000
+      internalID: 193984630103153408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeff3fe4115a0c00800000000000000
+      internalID: 867595028577386234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fedc5b54b61dc820800000000000000
+      internalID: 2940031095625539316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e923dde3e473790800000000000000
+      internalID: -7550480218357326256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_135
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85469be9cf46a8e90800000000000000
+      internalID: -7022689632773381032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee4ab379a2418d30800000000000000
+      internalID: 4431896803867774697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef435e87b1122870800000000000000
+      internalID: 8656500913824026604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe9cc8d3ccea7920800000000000000
+      internalID: 2988961628613811900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7436f409876c2df0800000000000000
+      internalID: -203674044947090310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8658e68dfb87050800000000000000
+      internalID: 5798595456527591664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d29adcaacd4f720800000000000000
+      internalID: 2879168687949557093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_142
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7670b90f481eb00b0800000000000000
+      internalID: -5761263337201793177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10092356eb6d12bb0800000000000000
+      internalID: -4962449201155633151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08046a771f7dc5450800000000000000
+      internalID: 6078971029137801344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5377a23688b6f0c0800000000000000
+      internalID: -4542240287641603236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_146
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8feacd3f844f73ac0800000000000000
+      internalID: -3875360360162873608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_147
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517bee6d9f0651bf0800000000000000
+      internalID: -354270369509624043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_148
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1a03d0ca4f3650800000000000000
+      internalID: 6214768202829404686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac1ce336e7eb910800000000000000
+      internalID: 1855059061242972865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_150
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060662fa0c4fc6560800000000000000
+      internalID: 7308485403724898400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631a5a61f69911e0800000000000000
+      internalID: -2226582577142426774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde905c46846ce760800000000000000
+      internalID: 7488470808379039455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_153
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3eedf9903fef800800000000000000
+      internalID: 648222619050369981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91cfc521d40ea8b0800000000000000
+      internalID: -5139164828454108772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c3d3f74f1ea82c0800000000000000
+      internalID: -4428478843342472077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0904e3980d78140800000000000000
+      internalID: 4721972022194770175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee897a9085aef1340800000000000000
+      internalID: 4836842188659202286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_158
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c0118c6db777c0800000000000000
+      internalID: -4073579064213846512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_159
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e094e9a743573f8e0800000000000000
+      internalID: -1660854969313638130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Sprite_160
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf750058ca2927d50800000000000000
+      internalID: 6733605662535735291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4abe97c639770054ea25e1ea1e94a331
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barbarian_Sprite_0: 1273148846512437808
+      Barbarian_Sprite_1: 7584742523204597990
+      Barbarian_Sprite_10: -3350286268808187127
+      Barbarian_Sprite_100: 3596358576560455372
+      Barbarian_Sprite_101: -1549576984904574866
+      Barbarian_Sprite_102: -3048413493018627257
+      Barbarian_Sprite_103: 655940937228184590
+      Barbarian_Sprite_104: -4278139842634681044
+      Barbarian_Sprite_105: 8177810503073807248
+      Barbarian_Sprite_106: 6841118688832634747
+      Barbarian_Sprite_107: -6730837399988198859
+      Barbarian_Sprite_108: 7279724740419906800
+      Barbarian_Sprite_109: -9106764696077410926
+      Barbarian_Sprite_11: 9007193237993788316
+      Barbarian_Sprite_110: 9111746030238514332
+      Barbarian_Sprite_111: 7228263404003830410
+      Barbarian_Sprite_112: -283264774413895911
+      Barbarian_Sprite_113: -5599791715312888952
+      Barbarian_Sprite_114: 8764646574636909538
+      Barbarian_Sprite_115: 5294841146336887114
+      Barbarian_Sprite_116: 268192042398563719
+      Barbarian_Sprite_117: -4578623282428912031
+      Barbarian_Sprite_118: -3253695714047107108
+      Barbarian_Sprite_119: -2144186197073693938
+      Barbarian_Sprite_12: -2346443482210318950
+      Barbarian_Sprite_120: 3626016582756410477
+      Barbarian_Sprite_121: -4812324920919403311
+      Barbarian_Sprite_122: 8940582017261107881
+      Barbarian_Sprite_123: 7597510251307385168
+      Barbarian_Sprite_124: -537471772942767389
+      Barbarian_Sprite_125: 354757082246753591
+      Barbarian_Sprite_126: 1330078059431798567
+      Barbarian_Sprite_127: -6826842579550942091
+      Barbarian_Sprite_128: -8639577849774238317
+      Barbarian_Sprite_129: -6010864710713965711
+      Barbarian_Sprite_13: -8366577665287948402
+      Barbarian_Sprite_130: -7321278952397235579
+      Barbarian_Sprite_131: 193984630103153408
+      Barbarian_Sprite_132: 867595028577386234
+      Barbarian_Sprite_133: 2940031095625539316
+      Barbarian_Sprite_134: -7550480218357326256
+      Barbarian_Sprite_135: -7022689632773381032
+      Barbarian_Sprite_136: 4431896803867774697
+      Barbarian_Sprite_137: 8656500913824026604
+      Barbarian_Sprite_138: 2988961628613811900
+      Barbarian_Sprite_139: -203674044947090310
+      Barbarian_Sprite_14: -309127264425136983
+      Barbarian_Sprite_140: 5798595456527591664
+      Barbarian_Sprite_141: 2879168687949557093
+      Barbarian_Sprite_142: -5761263337201793177
+      Barbarian_Sprite_143: -4962449201155633151
+      Barbarian_Sprite_144: 6078971029137801344
+      Barbarian_Sprite_145: -4542240287641603236
+      Barbarian_Sprite_146: -3875360360162873608
+      Barbarian_Sprite_147: -354270369509624043
+      Barbarian_Sprite_148: 6214768202829404686
+      Barbarian_Sprite_149: 1855059061242972865
+      Barbarian_Sprite_15: 2872064362620734523
+      Barbarian_Sprite_150: 7308485403724898400
+      Barbarian_Sprite_151: -2226582577142426774
+      Barbarian_Sprite_152: 7488470808379039455
+      Barbarian_Sprite_153: 648222619050369981
+      Barbarian_Sprite_154: -5139164828454108772
+      Barbarian_Sprite_155: -4428478843342472077
+      Barbarian_Sprite_156: 4721972022194770175
+      Barbarian_Sprite_157: 4836842188659202286
+      Barbarian_Sprite_158: -4073579064213846512
+      Barbarian_Sprite_159: -1660854969313638130
+      Barbarian_Sprite_16: -5433127056373381475
+      Barbarian_Sprite_160: 6733605662535735291
+      Barbarian_Sprite_17: -7704906822317738035
+      Barbarian_Sprite_18: 5168534633760926247
+      Barbarian_Sprite_19: -2195828534613796386
+      Barbarian_Sprite_2: -636904381924831091
+      Barbarian_Sprite_20: -8731260951450380078
+      Barbarian_Sprite_21: -4991682921452724592
+      Barbarian_Sprite_22: -7175605527628729316
+      Barbarian_Sprite_23: 542778915380897095
+      Barbarian_Sprite_24: -4589923379081948951
+      Barbarian_Sprite_25: -8122014841634727175
+      Barbarian_Sprite_26: 65032218742409428
+      Barbarian_Sprite_27: 3576178323672959570
+      Barbarian_Sprite_28: -6648741617835488919
+      Barbarian_Sprite_29: 2430153456484858415
+      Barbarian_Sprite_3: 5673211008913937411
+      Barbarian_Sprite_30: 7271039430769935208
+      Barbarian_Sprite_31: 4226520179695601759
+      Barbarian_Sprite_32: -577144181931073926
+      Barbarian_Sprite_33: -9037664271092855240
+      Barbarian_Sprite_34: -4830842921376503675
+      Barbarian_Sprite_35: 8515219077141478051
+      Barbarian_Sprite_36: -3531393238958241149
+      Barbarian_Sprite_37: -4816247694569987630
+      Barbarian_Sprite_38: -918309891529682409
+      Barbarian_Sprite_39: 5509025650098633989
+      Barbarian_Sprite_4: -5832524297269908091
+      Barbarian_Sprite_40: 6468079792129150584
+      Barbarian_Sprite_41: 4853479388766947775
+      Barbarian_Sprite_42: 9077658140620636661
+      Barbarian_Sprite_43: -5204443494112291423
+      Barbarian_Sprite_44: -674810835631576978
+      Barbarian_Sprite_45: -3497895005840048471
+      Barbarian_Sprite_46: 5019354588830971044
+      Barbarian_Sprite_47: 3086345112516965974
+      Barbarian_Sprite_48: -8419052127465103741
+      Barbarian_Sprite_49: 8587239424966263422
+      Barbarian_Sprite_5: -3473817566397405085
+      Barbarian_Sprite_50: 7005346295208771971
+      Barbarian_Sprite_51: 8573914469521749857
+      Barbarian_Sprite_52: 1629326624250869633
+      Barbarian_Sprite_53: 2485201606378781314
+      Barbarian_Sprite_54: -3888566748690827487
+      Barbarian_Sprite_55: 2924934043563600560
+      Barbarian_Sprite_56: 5131484042106932257
+      Barbarian_Sprite_57: 8032436760920044104
+      Barbarian_Sprite_58: -8359286365391017417
+      Barbarian_Sprite_59: 8125511669253523313
+      Barbarian_Sprite_6: 2867096205594916998
+      Barbarian_Sprite_60: 2988453270500967167
+      Barbarian_Sprite_61: -6151437545748626099
+      Barbarian_Sprite_62: 4036436957705213436
+      Barbarian_Sprite_63: 1914440697589007461
+      Barbarian_Sprite_64: -5970893974421549758
+      Barbarian_Sprite_65: 3200782287590787160
+      Barbarian_Sprite_66: -7856493000317846418
+      Barbarian_Sprite_67: 2835619196852758309
+      Barbarian_Sprite_68: -1017439289985809018
+      Barbarian_Sprite_69: -3706596356610679888
+      Barbarian_Sprite_7: 997610544792181221
+      Barbarian_Sprite_70: 7876477893670566010
+      Barbarian_Sprite_71: 6166078529044563113
+      Barbarian_Sprite_72: 3557271852717473698
+      Barbarian_Sprite_73: 6339621202344387234
+      Barbarian_Sprite_74: 6519063243289366138
+      Barbarian_Sprite_75: -8286576593317358642
+      Barbarian_Sprite_76: -3550213045875428216
+      Barbarian_Sprite_77: 5607126453094999548
+      Barbarian_Sprite_78: -3177818716599887850
+      Barbarian_Sprite_79: -6666109877515479267
+      Barbarian_Sprite_8: 2877398270144994893
+      Barbarian_Sprite_80: 457452257750875353
+      Barbarian_Sprite_81: 8718666136335351972
+      Barbarian_Sprite_82: -5691905425471523017
+      Barbarian_Sprite_83: 6930751226476140603
+      Barbarian_Sprite_84: -9097775969474244556
+      Barbarian_Sprite_85: 2523817555275495116
+      Barbarian_Sprite_86: -1618049990757959904
+      Barbarian_Sprite_87: -1081705729849179945
+      Barbarian_Sprite_88: 2810225152792224928
+      Barbarian_Sprite_89: 1960161088994957243
+      Barbarian_Sprite_9: 1705456361421346460
+      Barbarian_Sprite_90: 6199865384289778227
+      Barbarian_Sprite_91: -1241788614841490865
+      Barbarian_Sprite_92: -4253599589847381954
+      Barbarian_Sprite_93: -6700420996686246629
+      Barbarian_Sprite_94: 5171589424771724501
+      Barbarian_Sprite_95: -5372453318583091441
+      Barbarian_Sprite_96: 1967919106781829639
+      Barbarian_Sprite_97: 4720100110188004874
+      Barbarian_Sprite_98: -2284178414198657593
+      Barbarian_Sprite_99: -8265338266374801809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
