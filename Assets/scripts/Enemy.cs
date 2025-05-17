@@ -22,9 +22,10 @@ public class Enemy : MonoBehaviour
         startTime = Time.time;
         stat = _stat;
         transform.position = startPosition;
+        Debug.Log(_stat.Health + _stat.Speed + _stat.AttackDamage);
         // "point allocation"
         maxHealt = Mathf.RoundToInt(100f * stat.Health); // 100 is the max possible health
-        speed = 10f * stat.Speed; // 10 is max speed
+        speed = 6f * stat.Speed; // 6 is max speed
         damage = Mathf.RoundToInt(10f * stat.AttackDamage); // 10 is the max possible damage
     }
 
@@ -35,6 +36,7 @@ public class Enemy : MonoBehaviour
         {
             parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX, 0, stat);
             // play death animation
+            gameObject.SetActive(false);
         }
     }
 
@@ -45,7 +47,10 @@ public class Enemy : MonoBehaviour
         if (dir.magnitude > 1)
             transform.position += speed * Time.deltaTime * dir.normalized;
         else
-            Attack();
+        {
+            gameObject.SetActive(false);
+            parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX, 0, stat);
+        }
     }
     private void Attack()
     {
