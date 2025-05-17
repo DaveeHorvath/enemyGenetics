@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float damage_rad_offset_y;
     [SerializeField] private float inputX;
     [SerializeField] private float inputY;
+    [SerializeField] private bool attack_action;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -44,12 +45,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            var a = Physics2D.OverlapCircleAll(transform.position + new Vector3(inputX * damage_rad_offset_x, inputY * damage_rad_offset_y + damage_rad_offset_y + 0.5f), 0.5f);
-
-            for (int i = 0; i < a.Length; i++)
-            {
-                a[i].GetComponent<Enemy>().TakeDamage(damage_val);
-            }
+            Attack();
         }
     }
 
@@ -60,5 +56,19 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
             rb.linearVelocity = new Vector3(playerMoveDirection.x, playerMoveDirection.y).normalized * moveSpeed;
+    }
+
+    private void Attack()
+    {
+        attack_action = true;
+
+        var a = Physics2D.OverlapCircleAll(transform.position + new Vector3(inputX * damage_rad_offset_x, inputY * damage_rad_offset_y + damage_rad_offset_y + 0.5f), 0.5f);
+
+        animator.SetTrigger("player_attack");
+
+        for (int i = 0; i < a.Length; i++)
+        {
+            a[i].GetComponent<Enemy>().TakeDamage(damage_val);
+        }
     }
 }
