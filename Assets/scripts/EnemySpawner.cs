@@ -219,13 +219,12 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        for (int i = 0; i < 5; i++) { 
-            int currentTarget = ChooseTarget();
-            var (current, e) = enemies.Dequeue();
-            current.SetActive(true);
-            e.Setup(Spawns[currentTarget].position.transform.position, Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
-            enemies.Enqueue((current, e));
-        }
+        int currentTarget = ChooseTarget();
+        var (current, e) = enemies.Dequeue();
+        current.SetActive(true);
+        var randomOffset = UnityEngine.Random.insideUnitCircle * 2;
+        e.Setup(Spawns[currentTarget].position.transform.position + new Vector3(randomOffset.x, randomOffset.y), Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
+        enemies.Enqueue((current, e));
     }
 
     private int ChooseTarget()

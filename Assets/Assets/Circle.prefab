@@ -233,6 +233,10 @@ MonoBehaviour:
   speed: 5
   damage: 0
   startTime: 0
+  enemies:
+  - {fileID: 2856322068790375817, guid: 46f5d7a450f4c0842a27d199aa64eebe, type: 3}
+  weapons:
+  - {fileID: -6057071899397287333, guid: 9e2307479212e244d98f4397aa1e15bd, type: 3}
 --- !u!58 &2852352074239990949
 CircleCollider2D:
   m_ObjectHideFlags: 0
