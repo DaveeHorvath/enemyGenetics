@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     int damageDealt = 0;
     float lastAttack;
 
-    void Setup(Vector3 startPosition, POI _target, statistics _stat, int index)
+    public void Setup(Vector3 startPosition, POI _target, statistics _stat, int index)
     {
         damageDealt = 0;
         target = _target;

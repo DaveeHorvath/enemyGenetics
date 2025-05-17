@@ -7,6 +7,8 @@ using UnityEngine;
 [System.Serializable]
 public class EnemyGroup
 {
+    public POI target;
+    public GameObject position;
     public SortedList<float, byte[]> performance;
     public int baseAmount;
     Queue<Vector3> extra;
@@ -33,7 +35,7 @@ public class EnemyGroup
     }
 
 
-    statistics createNewStatistic()
+    public statistics createNewStatistic()
     {
         if (extra.Count == 0) {
             byte[] child1 = new byte[120];
@@ -93,13 +95,17 @@ public class EnemyGroup
 
 public class EnemySpawner : MonoBehaviour
 {
-    public int MaxTargets;
+    [SerializeField] private GameObject enemy;
+    [SerializeField] private int count;
     public List<EnemyGroup> Spawns;
-    [Header("fitnessParameters")]
-    float timePower, timeScale;
-    float damagePower, damageScale;
-    float survivalPower, survivalScale;
-    float playerDistancePower, playerDistanceScale;
+    [Header("Fitness Parameters")]
+    [SerializeField] private float timePower;
+    [SerializeField] private float timeScale;
+    [SerializeField] private float damagePower, damageScale;
+    [SerializeField] private float survivalPower, survivalScale;
+    [SerializeField] private float playerDistancePower, playerDistanceScale;
+    [SerializeField] private float healthAttributeScale, speedAttributeScale, damageAttributeScale;
+    Queue<(GameObject, Enemy)> enemies = new Queue<(GameObject, Enemy)>();
 
     public void RegisterDeath(float survivalTime, int damageDealt, int INDEX, int distanceFromPlayer, statistics stat)
     {
@@ -107,7 +113,11 @@ public class EnemySpawner : MonoBehaviour
         var fitness = Mathf.Pow(Time.time, timePower) * timeScale // recency
             + Mathf.Pow(damageDealt, damagePower) * damageScale // damageDone
             + Mathf.Pow(survivalTime, survivalPower) * survivalScale // how long alive
-            + Mathf.Pow(distanceFromPlayer, playerDistancePower) * playerDistanceScale; // playerInteraction
+            + Mathf.Pow(distanceFromPlayer, playerDistancePower) * playerDistanceScale // playerInteraction
+            // attribute fitness demo
+            + stat.Health * healthAttributeScale
+            + stat.Speed * speedAttributeScale
+            + stat.AttackDamage * damageAttributeScale;
         Debug.Log(fitness);
         // save into the sorted array
         Spawns[INDEX].performance.Add(fitness, EnemyGroup.ToByteArray(new Vector3(stat.Health, stat.AttackDamage, stat.Speed)));
@@ -119,16 +129,24 @@ public class EnemySpawner : MonoBehaviour
     private void Start()
     {
         // spawn enemy prefabs to not have to do it whenever one dies
+        for (int i = 0; i < count; i++)
+        {
+            var g = Instantiate(enemy, transform);
+            enemies.Enqueue((g, g.GetComponent<Enemy>()));
+        }
     }
 
     public void SpawnEnemy()
     {
         int currentTarget = ChooseTarget();
-
+        var (current, e) = enemies.Dequeue();
+        current.SetActive(true);
+        e.Setup(Spawns[currentTarget].position.transform.position, Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
+        enemies.Enqueue((current, e));
     }
 
     private int ChooseTarget()
     {
-        return UnityEngine.Random.Range(0, MaxTargets);
+        return UnityEngine.Random.Range(0, Spawns.Count);
     }
 }
