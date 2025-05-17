@@ -4,12 +4,13 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
+[System.Serializable]
 public class EnemyGroup
 {
-    SortedList<float, byte[]> performance;
+    public SortedList<float, byte[]> performance;
     public int baseAmount;
     Queue<Vector3> extra;
-    Queue<float> recentDeaths;
+    public Queue<float> recentDeaths;
     public float agitatedness;
     public float mutationMod;
     public int attributeSum;
@@ -41,8 +42,8 @@ public class EnemyGroup
             System.Random rnd = new();
             // fix for proper weighted list selection
             var crossoverPoint = rnd.Next(0, 120);
-            var parent1index = rnd.Next(10);
-            var parent2index = rnd.Next(10);
+            var parent1index = rnd.Next(Math.Max(10, performance.Count));
+            var parent2index = rnd.Next(Math.Max(10, performance.Count));
             if (parent1index == parent2index)
                 parent2index = parent1index + 1;
             // crossover - to be changed from single point to normal with centers at both parents at values
@@ -94,10 +95,25 @@ public class EnemySpawner : MonoBehaviour
 {
     public int MaxTargets;
     public List<EnemyGroup> Spawns;
+    [Header("fitnessParameters")]
+    float timePower, timeScale;
+    float damagePower, damageScale;
+    float survivalPower, survivalScale;
+    float playerDistancePower, playerDistanceScale;
 
-    public void RegisterDeath(float survivalTime, int damageDealt, int INDEX)
+    public void RegisterDeath(float survivalTime, int damageDealt, int INDEX, int distanceFromPlayer, statistics stat)
     {
         // calculateFitness
+        var fitness = Mathf.Pow(Time.time, timePower) * timeScale // recency
+            + Mathf.Pow(damageDealt, damagePower) * damageScale // damageDone
+            + Mathf.Pow(survivalTime, survivalPower) * survivalScale // how long alive
+            + Mathf.Pow(distanceFromPlayer, playerDistancePower) * playerDistanceScale; // playerInteraction
+        Debug.Log(fitness);
+        // save into the sorted array
+        Spawns[INDEX].performance.Add(fitness, EnemyGroup.ToByteArray(new Vector3(stat.Health, stat.AttackDamage, stat.Speed)));
+        Spawns[INDEX].recentDeaths.Enqueue(survivalTime);
+        if (Spawns[INDEX].recentDeaths.Count > 10)
+            Spawns[INDEX].recentDeaths.Dequeue();
     }
 
     private void Start()

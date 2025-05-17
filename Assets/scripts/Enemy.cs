@@ -4,7 +4,7 @@ public class Enemy : MonoBehaviour
 {
     public EnemySpawner parent;
     public int INDEX;
-    public GameObject target;
+    public POI target;
     public statistics stat;
     public int maxHealt;
     public int currentHealth;
@@ -12,10 +12,12 @@ public class Enemy : MonoBehaviour
     public int damage;
     public float startTime;
     int damageDealt = 0;
+    float lastAttack;
 
-    void Setup(Vector3 startPosition, GameObject _target, statistics _stat, int index)
+    void Setup(Vector3 startPosition, POI _target, statistics _stat, int index)
     {
         damageDealt = 0;
+        target = _target;
         INDEX = index;
         startTime = Time.time;
         stat = _stat;
@@ -31,7 +33,7 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth < 0)
         {
-            parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX);
+            parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX, 0, stat);
             // play death animation
         }
     }
@@ -40,7 +42,18 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Vector3 dir = target.transform.position - transform.position;
-        if (dir.magnitude > 1) 
-            transform.position += dir.normalized * speed * Time.deltaTime;
+        if (dir.magnitude > 1)
+            transform.position += speed * Time.deltaTime * dir.normalized;
+        else
+            Attack();
+    }
+    private void Attack()
+    {
+        if (lastAttack + 1 < Time.time)
+        {
+            damageDealt += damage;
+            lastAttack = Time.time;
+            target.damageTaken += damage;
+        }
     }
 }

@@ -7,7 +7,7 @@ public class POI : MonoBehaviour
     public int damageTaken;
     public Vector2 angle;
     public LayerMask mask;
-    float lastAttack;
+    float lastAttack = -100;
 
     private void Update()
     {
@@ -17,10 +17,10 @@ public class POI : MonoBehaviour
             found.transform.GetComponent<Enemy>().TakeDamage(damage);
             lastAttack = Time.time;
         }
-        Debug.Log(Time.time);
     }
-    private void OnGUI()
+    private void OnDrawGizmos()
     {
-        Debug.DrawRay(transform.position, angle.normalized * 5, Color.red);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawRay(transform.position, angle.normalized * 5);
     }
 }
