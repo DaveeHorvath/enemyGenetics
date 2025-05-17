@@ -13,9 +13,15 @@ public class Enemy : MonoBehaviour
     public float startTime;
     int damageDealt = 0;
     float lastAttack;
+    Transform weapon;
+    Transform body;
 
     public void Setup(Vector3 startPosition, POI _target, statistics _stat, int index)
     {
+        weapon = transform.GetChild(0);
+        weapon.localScale = new Vector3(1,1,1) * (.75f + _stat.AttackDamage * 4);
+        body = transform.GetChild(1);
+        body.localScale = new Vector3(1, 1, 1) * (.75f + _stat.Health * 4);
         damageDealt = 0;
         target = _target;
         INDEX = index;
@@ -27,6 +33,8 @@ public class Enemy : MonoBehaviour
         maxHealt = Mathf.RoundToInt(100f * stat.Health); // 100 is the max possible health
         speed = 6f * stat.Speed; // 6 is max speed
         damage = Mathf.RoundToInt(10f * stat.AttackDamage); // 10 is the max possible damage
+        if (_stat.AttackDamage * _stat.AttackDamage + _stat.Health * _stat.Health + _stat.Speed * _stat.Speed > 1.2)
+            Debug.LogError("Scaling" + (_stat.AttackDamage * _stat.AttackDamage + _stat.Health * _stat.Health + _stat.Speed * _stat.Speed - 1).ToString());
     }
 
     public void TakeDamage(int damage)

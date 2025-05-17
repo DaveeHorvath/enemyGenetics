@@ -132,6 +132,7 @@ public class EnemyGroup
                 Math.Max(0, Math.Min(1, avgDeathTime / recentDeaths.Count ))) * toMutate.magnitude / 9; // max 10% impact
             toMutate += smartOffset;
         }
+        toMutate = toMutate.normalized;
         statistics s = new();
         s.Health = toMutate.x;
         s.AttackDamage = toMutate.y;
@@ -208,10 +209,10 @@ public class EnemySpawner : MonoBehaviour
                 sum += p.Key;
                 Debug.Log(p.Key);
             }
-            Debug.LogWarning(s.Name + sum / s.performance.Count);
-            using (StreamWriter sw = new StreamWriter(Application.dataPath + $"/log_{name}.txt", true))
+            Debug.LogWarning(s.Name + " " + sum / s.performance.Count);
+            using (StreamWriter sw = new StreamWriter(Application.dataPath + $"/log_{s.Name}.txt", true))
             {
-                sw.WriteLine(s.Name + sum / s.performance.Count);
+                sw.WriteLine(sum / s.performance.Count);
             }
         }
     }
