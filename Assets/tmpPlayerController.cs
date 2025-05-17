@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public class tmpPlayerController : MonoBehaviour
@@ -6,12 +7,18 @@ public class tmpPlayerController : MonoBehaviour
     // Update is called once per frame
     public LayerMask wall;
     public LayerMask enemy;
+    public SpriteRenderer me;
     public int damage = 10;
     public float attackrange;
     Vector2 dir;
     float lastAttack = 0;
     float attackspeed = 1;
     GameObject sillyDamager;
+    private void Start()
+    {
+        me = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         sillyDamager = transform.GetChild(0).gameObject;
@@ -26,6 +33,11 @@ public class tmpPlayerController : MonoBehaviour
             dir.y = 0;
         transform.position += new Vector3(dir.x, dir.y).normalized * 10 * Time.deltaTime;
 
+        if (dir.x < 0)
+            me.flipX = true;
+        if (dir.x > 0)
+            me.flipX = false;
+
         if (Input.GetKey(KeyCode.Space))
             Attack();
     }
@@ -35,12 +47,13 @@ public class tmpPlayerController : MonoBehaviour
         {
             var enemies = Physics2D.CircleCastAll(transform.position, attackrange, Vector2.zero, 0, enemy);
             // spawn animation
-            StartCoroutine("evil");
             foreach (var enemy in enemies)
             {
                 enemy.transform.GetComponent<Enemy>().TakeDamage(damage);
             }
             lastAttack = Time.time;
+            Debug.Log(enemies.Length);
+            StartCoroutine("evil");
         }
 
     }
