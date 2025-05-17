@@ -39,13 +39,14 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        if (currentHealth < 0)
-        {
-            parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX, 0, stat);
-            // play death animation
-            gameObject.SetActive(false);
-        }
+        Debug.Log(damage);
+        //currentHealth -= damage;
+        //if (currentHealth < 0)
+        //{
+        //    parent.RegisterDeath(Time.time - startTime, damageDealt, INDEX, 0, stat);
+        //    // play death animation
+        //    gameObject.SetActive(false);
+        //}
     }
 
     // Update is called once per frame
