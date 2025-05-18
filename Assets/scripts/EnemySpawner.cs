@@ -89,7 +89,6 @@ public class EnemyGroup
                 var parent2index = rnd.Next(1, Math.Min(10, performance.Count));
                 if (parent1index == parent2index)
                     parent2index = parent1index + 1;
-                Debug.Log(parent1index + ", " + parent2index);
                 // crossover - to be changed from single point to normal with centers at both parents at values
                 Array.Copy(performance.Values[^parent1index], child1, crossoverPoint);
                 Array.Copy(performance.Values[^parent2index], child2, crossoverPoint);
@@ -151,9 +150,7 @@ public class EnemyGroup
             + stat.Health * healthAttributeScale
             + stat.Speed * speedAttributeScale
             + stat.AttackDamage * damageAttributeScale;
-        Debug.Log("fitness: " + fitness);
         // save into the sorted array
-        Debug.Log(EnemyGroup.ToByteArray(stat).Length + EnemyGroup.ToByteArray(stat).ToString());
         performance.Add(fitness, EnemyGroup.ToByteArray(stat));
         recentDeaths.Enqueue(survivalTime / (target.angle.magnitude / stat.Speed));
         if (recentDeaths.Count > 10)
@@ -164,6 +161,7 @@ public class EnemyGroup
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemy;
+    [SerializeField] private GameObject enemy2;
     [SerializeField] private int count;
     public List<EnemyGroup> Spawns;
     [Header("Fitness Parameters")]
@@ -175,6 +173,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float healthAttributeScale, speedAttributeScale, damageAttributeScale;
     [SerializeField] private float expectedSpeed;
     Queue<(GameObject, Enemy)> enemies = new Queue<(GameObject, Enemy)>();
+    Queue<(GameObject, Enemy)> enemies2 = new Queue<(GameObject, Enemy)>();
 
     public void RegisterDeath(float survivalTime, int damageDealt, int INDEX, int distanceFromPlayer, statistics stat)
     {
@@ -198,6 +197,14 @@ public class EnemySpawner : MonoBehaviour
             enemies.Enqueue((g, e));
             g.SetActive(false);
         }
+        for (int i = 0; i < count; i++)
+        {
+            var g = Instantiate(enemy2, transform);
+            var e = g.GetComponent<Enemy>();
+            e.parent = this;
+            enemies2.Enqueue((g, e));
+            g.SetActive(false);
+        }
     }
     public void printStats()
     {
@@ -210,21 +217,29 @@ public class EnemySpawner : MonoBehaviour
                 Debug.Log(p.Key);
             }
             Debug.LogWarning(s.Name + " " + sum / s.performance.Count);
-            using (StreamWriter sw = new StreamWriter(Application.dataPath + $"/log_{s.Name}.txt", true))
-            {
-                sw.WriteLine(sum / s.performance.Count);
-            }
         }
     }
 
     public void SpawnEnemy()
     {
         int currentTarget = ChooseTarget();
-        var (current, e) = enemies.Dequeue();
-        current.SetActive(true);
-        var randomOffset = UnityEngine.Random.insideUnitCircle * 2;
-        e.Setup(Spawns[currentTarget].position.transform.position + new Vector3(randomOffset.x, randomOffset.y), Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
-        enemies.Enqueue((current, e));
+        if (currentTarget == 0 || currentTarget == 1)
+        {
+            var (current, e) = enemies.Dequeue();
+            current.SetActive(true);
+            var randomOffset = UnityEngine.Random.insideUnitCircle * 2;
+            e.Setup(Spawns[currentTarget].position.transform.position + new Vector3(randomOffset.x, randomOffset.y), Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
+            enemies.Enqueue((current, e));
+        }
+        else
+        {
+            var (current, e) = enemies2.Dequeue();
+            current.SetActive(true);
+            var randomOffset = UnityEngine.Random.insideUnitCircle * 2;
+            e.Setup(Spawns[currentTarget].position.transform.position + new Vector3(randomOffset.x, randomOffset.y), Spawns[currentTarget].target, Spawns[currentTarget].createNewStatistic(), currentTarget);
+            enemies2.Enqueue((current, e));
+        }
+
     }
 
     private int ChooseTarget()

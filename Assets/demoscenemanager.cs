@@ -12,7 +12,7 @@ public class demoscenemanager : MonoBehaviour
         {
             spawner.SpawnEnemy();
             lastSpawn = Time.time;
-            delay = Random.Range(1f, 1.5f);
+            delay = Random.Range(.5f, 1f);
         }
     }
 }

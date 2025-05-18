@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
         Invoke("spawnPlayer", .4f);
+        Time.timeScale = 1;
     }
     
     void Update()
